@@ -1,0 +1,14 @@
+<!-- templates/base.html -->
+<header>
+
+<a href="{% url 'About' %}">Home</a> |
+<a href="{% url 'Contact' %}">About</a>|
+<a href="{% url 'Experience' %}">Experience</a> |
+<a href="{% url 'Projects' %}">Projects</a> |
+<a href="{% url 'Resume' %}">Resume</a> |
+<a href="{% url 'Skills' %}">Skills</a> |
+
+</header>
+
+{% block content %}
+{% endblock content %}
